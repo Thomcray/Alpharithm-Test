@@ -7,7 +7,7 @@ function Hero() {
       as="section"
       pt={{ base: 20, xl: 32 }}
       background="radial-gradient(circle at bottom center, rgba(255, 255, 255, 0.4) 5%, rgba(255, 255, 255, 0) 50%), 
-            #04142B"
+            linear-gradient(to bottom, #04142B, #0037FF);"
     >
       <Box
         w={{ base: "full", xl: "860px" }}
@@ -58,7 +58,10 @@ function Hero() {
           py="12px"
           mb="80px"
           fontFamily="Figtree"
+          fontWeight="semibold"
           borderRadius="12px"
+          bg="white"
+          color="#03061D"
         >
           Get Started Now
         </CustomButton>

@@ -1,7 +1,7 @@
 import { Box, Link as ChakraLink, Stack, Text } from "@chakra-ui/react";
 import { Link as ReactRouter } from "react-router";
 
-function Nav({ flexDirection, hideBelow, alignItems }) {
+function Nav({ flexDirection, color, hideBelow, alignItems }) {
   const route = [
     {
       name: "Models",
@@ -51,7 +51,7 @@ function Nav({ flexDirection, hideBelow, alignItems }) {
             fontWeight="medium"
             fontSize="16px"
             lineHeight="100%"
-            color="white"
+            color={color}
             textDecoration="none"
             _focus={{ outline: "none", boxShadow: "none" }}
             _focusVisible={{ outline: "none", boxShadow: "none" }}

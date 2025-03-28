@@ -37,7 +37,7 @@ const MobileDrawer = () => {
               </Drawer.Title>
             </Drawer.Header>
             <Drawer.Body>
-              <Nav flexDirection="column" alignItems="center" />
+              <Nav flexDirection="column" alignItems="center" color="#03061D" />
             </Drawer.Body>
             <Drawer.Footer
               w="fit-content"
@@ -53,7 +53,14 @@ const MobileDrawer = () => {
               >
                 Login
               </CustomButton>
-              <CustomButton w="full">Get Started Now</CustomButton>
+              <CustomButton
+                w="full"
+                bg="white"
+                color="#03061D"
+                border="1px solid #03061D"
+              >
+                Get Started Now
+              </CustomButton>
             </Drawer.Footer>
             <Drawer.CloseTrigger asChild>
               <CloseButton size="sm" />

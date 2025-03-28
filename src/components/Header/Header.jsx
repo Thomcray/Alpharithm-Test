@@ -25,13 +25,20 @@ function Header({ isVisible }) {
       transition="transform 0.3s ease-in-out"
     >
       <Icon as={alphaIcon} w="48px" />
-      <Nav flexDirection="row" hideBelow="md" alignItems="center" />
+      <Nav
+        flexDirection="row"
+        hideBelow="md"
+        color="white"
+        alignItems="center"
+      />
 
       <Stack direction="row" hideBelow="md">
         <CustomButton border="1px solid #fff" color="white" bg="#04142B">
           Login
         </CustomButton>
-        <CustomButton>Get Started Now</CustomButton>
+        <CustomButton bg="white" color="#03061D" fontWeight="semibold">
+          Get Started Now
+        </CustomButton>
       </Stack>
 
       <MobileDrawer />
